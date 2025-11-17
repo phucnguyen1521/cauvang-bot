@@ -164,8 +164,8 @@ client.on('messageCreate', async (message) => {
     setCommandUsed(user.userId, message.content);
     let replies = {
       '!feed': 'Gâu gâu! Em ăn ngon lắm 🦴',
-      '!pet': '*lăn bụng ra đòi vuốt*',
-      '!play': 'Gâu gâu! Em chạy vòng vòng kìa!'
+      '!pet': 'Gâu! Được xoa đầu thích quá',
+      '!play': 'Gâu gâu! Quả banh lăn vòng vòng kìa!'
     };
     message.reply(replies[message.content]);
     return;
